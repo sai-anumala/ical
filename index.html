@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal Marks Calculator | Sai Anumala</title>
+   <link rel="stylesheet" href="calci.css"/>
+   <link rel="icon" href="https://icons.iconarchive.com/icons/martz90/circle/256/calculator-icon.png">
+</head>
+<body>
+    <div class="all">
+        <div>
+            <label class="title">Internal Calci</label>
+        </div>
+        <div class="marks">
+            <label>Enter Assignment 1 Marks (out of 10):</label>
+            <input type="text" id="assignment1" min="0" max="10" />
+            <label>Enter Assignment 2 Marks (out of 10):</label>
+            <input type="text" id="assignment2" min="0" max="10" />
+            <label>Enter Mid 1 Marks (out of 35):</label>
+            <input type="text" id="mid1" min="0" max="35" />
+            <label>Enter Mid 2 Marks (out of 35):</label>
+            <input type="text" id="mid2" min="0" max="35" />
+            <button onclick="calculateMarks()">Calculate</button>
+            <div id="result"></div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 <a href="www.github.com/sai-anumala">Sai Anumala</a></p>
+    </footer>
+    <script src="calci.js"></script>
+</body>
+</html>

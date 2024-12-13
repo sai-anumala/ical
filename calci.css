@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #A8FF78, #78ffd6);
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;  
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;  
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.marks {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.54); 
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 450px;
+    box-sizing: border-box;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #0c0b0b;
+    display: block;
+    margin-top: 15px;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    border-radius: 9px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input:focus {
+    outline: none;
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.6);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #6a11cb;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #2575fc;
+    transform: translateY(2px);
+}
+
+#result {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ef1010;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.8rem;  
+    }
+
+    .marks {
+        padding: 20px;  
+    }
+
+    label {
+        font-size: 1rem; 
+    }
+
+    input, button {
+        font-size: 1rem; 
+    }
+
+    #result {
+        font-size: 1.2rem;  
+    }
+
+    footer {
+        font-size: 12px;  
+    }
+}
