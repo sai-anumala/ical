@@ -34,9 +34,9 @@ function calculateMarks() {
     document.getElementById("result").innerText="Total Internal Marks: "+totalMarks+"/30";
 
     if(totalMarks>=15){
-            alert("Congratulations! You are Q U A L I F I E D");
+        alert("Congratulations! You are\nQ U A L I F I E D...");
         }
     else{
-        alert("Sorry! You are not Qualified...");
+        alert("Sorry! You are\nnot Qualified...");
     }
 }
