@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #A8FF78, #78ffd6);
+    background: linear-gradient(135deg, #73bcc5, #78ffd6);
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 
 .title {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 2rem;  
+    font-size: 3.2em;  
     font-weight: 700;
     margin-bottom: 20px;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
@@ -44,35 +44,36 @@ label {
 
 input {
     text-align: center;
-    width: 100%;
+    width: 85%;
     padding: 12px;
     margin-top: 10px;
-    font-size: 1.1rem;
-    border-radius: 9px;
-    border: 1px solid #ddd;
+    font-size: 1.3rem;
+    border-radius: 29px;
+    border: 0.5px solid #ddd;
     box-sizing: border-box;
     background-color: #fff;
-    color: #333;
+    color: #050505;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 input:focus {
     outline: none;
-    border-color: #2575fc;
+    border-color: #53bad9;
     box-shadow: 0 0 5px rgba(37, 117, 252, 0.6);
 }
 
 button {
-    width: 100%;
+    width: 85%;
     padding: 12px;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 1.1rem;
     background-color: #2575fc;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
+    box-shadow: 0 0 5px rgb(4, 2, 0);
 }
 
 button:hover {

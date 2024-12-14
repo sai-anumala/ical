@@ -4,10 +4,10 @@ function calculateMarks() {
     let mid1=parseInt(document.getElementById("mid1").value);
     let mid2=parseInt(document.getElementById("mid2").value);
 
-    if(isNaN(assignment1)){assignment1=0;}
-    if(isNaN(assignment2)){assignment2=0;}
-    if(isNaN(mid1)){mid1=0;}
-    if(isNaN(mid2)){mid2=0;}
+    if(isNaN(assignment1)){return alert("Please enter valid marks for Assignment 1");}
+    if(isNaN(assignment2)){return alert("Please enter valid marks for Assignment 2");}
+    if(isNaN(mid1)){return alert("Please enter valid marks for Midterm 1");}
+    if(isNaN(mid2)){return alert("Please enter valid marks for Midterm 2");}
 
     if(assignment1<0||assignment1>10||assignment2<0||assignment2>10||mid1<0||mid1>35||mid2<0||mid2>35){
         alert("Please enter marks within the valid range.");
